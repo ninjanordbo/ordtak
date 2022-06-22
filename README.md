@@ -22,6 +22,6 @@ I would have loved to add proverb categories and also a search function. I was a
 
 ## Lessons Learned:
 
-Although this was not a huge app to build, I learned quite a few lessons along the way. This was my first time using EJS and it took me a while to work out how to get it to render the document files properly. It was also a very good learning experience working with MongoDB. 
+Although this was not a huge app to build, I learned quite a few lessons along the way. This was my first time using EJS and it took me a while to work out how to get it to render the document files properly. It was also a very good learning experience working with MongoDB. Quite a lot of debugging went into getting this app to work with Heroku. I was getting error codes and had to work out why the app was crashing everytime I tried to launch it.
 
 
