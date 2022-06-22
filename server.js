@@ -46,7 +46,7 @@ MongoClient.connect(connectionString, { useUnifiedTopology: true })
     })
 
     // Listen
-    app.listen(PORT, () => console.log(`Listening on port ${PORT}`))
+    app.listen(process.env.PORT || PORT, () => console.log(`Listening on port ${PORT}`))
 
 })
 .catch(error => console.error(error))
