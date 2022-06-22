@@ -1,6 +1,9 @@
 {
   "name": "ordtak",
   "version": "1.0.0",
+  "engines": {
+    "node": "18.2.0"
+  },
   "description": "Liten app med norske ordtak",
   "main": "index.js",
   "scripts": {
