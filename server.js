@@ -7,7 +7,7 @@ const MongoClient = require('mongodb').MongoClient
 const connectionString = process.env.DB_STRING
 const PORT = 3000
 require('dotenv').config()
-//const random = db.aggregate([{ $sample: { size: 1 } }])
+
 
 
 MongoClient.connect(connectionString, { useUnifiedTopology: true })
