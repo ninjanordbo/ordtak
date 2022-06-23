@@ -4,8 +4,9 @@ const express = require('express');
 const bodyParser= require('body-parser')
 const app = express();
 const MongoClient = require('mongodb').MongoClient
-const connectionString = 'mongodb+srv://user1:1234pingpong@cluster0.tff051c.mongodb.net/?retryWrites=true&w=majority'
+const connectionString = process.env.DB_STRING
 const PORT = 3000
+require('dotenv').config()
 //const random = db.aggregate([{ $sample: { size: 1 } }])
 
 
